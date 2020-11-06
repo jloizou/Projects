@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>  
+ <section id="calculator">
+    <div id="display"> 
+        <p id="displayText"></p>
+    </div>
+    <button type="button" id="btnc" class="topLeftBtn">C</button>
+    <button type="button" id="btnpm" class="topLeftBtn">+/-</button> 
+    <button type="button" id="btndel" class="topLeftBtn">Back</button>
+    <button type="button" id="btndiv" class="rightOrangeBtn" onclick=checkBeforeDisplayChange(this) data-value="/">÷</button>
+    <button type="button" id="btnx" class="rightOrangeBtn" onclick=checkBeforeDisplayChange(this) data-value="*">X</button>
+    <button type="button" id="btn7" onclick=displayChange(7)>7</button>
+    <button type="button" id="btn8" onclick=displayChange(8)>8</button>
+    <button type="button" id="btn9" onclick=displayChange(9)>9</button>
+    <button type="button" id="btn4" onclick=displayChange(4)>4</button>
+    <button type="button" id="btn5" onclick=displayChange(5)>5</button>
+    <button type="button" id="btn6" onclick=displayChange(6)>6</button>
+    <button type="button" id="btn-" class="rightOrangeBtn" onclick=checkBeforeDisplayChange(this) data-value="-">-</button>
+    <button type="button" id="btn1" onclick=displayChange(1)>1</button>
+    <button type="button" id="btn2" onclick=displayChange(2)>2</button>
+    <button type="button" id="btn3" onclick=displayChange(3)>3</button>
+    <button type="button" id="btnpl" class="rightOrangeBtn" onclick=checkBeforeDisplayChange(this) data-value="+">+</button>
+    <button type="button" id="btn0" onclick=displayChange(0)>0</button>
+    <button type="button" id="btndot" onclick=dataval(this) data-value=".">.</button>
+    <button type="button" id="btneq" class="rightOrangeBtn">=</button>
+</section>
+<script src="calc.js"></script>
+</body> 
+<!-- //The challenge is to build a calculator that has the same functionality as your iPhone calculator (portrait). You'll need the following to complete it:
+Conditional Statement (If/Else as well as the &&/|| operators)
+JS Functions (arrow functions covered this morning)
+How to add event listeners (interacting with the DOM, covered fully on Thursday but covered a bit already with the validation lesson and responsiveness lesson from last week)
+How to change the text with the (textContext)
+For loops (to be covered tomorrow morning but you may have already come across them too)
+Let any of the coaches know if you would like any help/clarification on the challenge.
+Portfolio's are still the priority in order to present a final version on Friday if you still have bits to do.
+Good Luck! // -->
+</html>

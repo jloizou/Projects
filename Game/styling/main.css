@@ -1,0 +1,41 @@
+body {
+  display: grid;
+  grid-template-areas: "head" "imgsect";
+}
+
+header {
+  grid-area: head;
+  height: 30vh;
+  width: 100vw;
+  background-color: grey;
+  text-align: center;
+}
+
+div {
+  width: 33%;
+  height: 25vh;
+  margin: 2px;
+  background-color: grey;
+  text-align: center;
+  vertical-align: middle;
+  opacity: 0;
+}
+div img {
+  margin-top: 30px;
+  width: 40%;
+  height: 60%;
+  opacity: 0;
+}
+
+#resetButton {
+  display: none;
+}
+
+#images {
+  grid-area: imgsect;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  height: 70vh;
+  width: 100vw;
+}

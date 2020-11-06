@@ -1,0 +1,121 @@
+#calculator{ 
+    height: 100vh; 
+    width: 98vw;
+    display: grid; 
+    grid-template-areas: "display display display display"
+    "display display display display" 
+    "btnc btndel btnpm btndiv" 
+    "btn7 btn8 btn9 btnx" 
+    "btn4 btn5 btn6 btn-" 
+    "btn1 btn2 btn3 btnpl" 
+    "btn0 btn0 btndot btneq"
+    ; 
+    
+} 
+#display{ 
+    position: relative;
+    grid-area: display;
+    background-color: #202020; 
+    color: #8b8b8b; 
+}
+#displayText{ 
+    position: absolute; 
+    bottom: 0px; 
+    right: 0px;
+    font-size: 4.2rem; 
+    color: white;
+} 
+button{ 
+    font-size: 2rem;  
+    background-color: #ffffff;
+    cursor: pointer; 
+    
+} 
+button:hover{ 
+    background-color: rgb(82, 82, 82);
+    color: white;
+}
+#btndel{ 
+    grid-area: btndel;
+}
+.topLeftBtn{ 
+    background-color: #cacbcd;
+}
+.rightOrangeBtn{ 
+background-color: #f88f12;
+color: #ffffff;
+}
+#btnc{ 
+grid-area: btnc;
+} 
+#btnpm{ 
+    grid-area: btnpm;
+} 
+#btnper{ 
+    grid-area: btnper;
+   
+}
+#btndiv{ 
+    grid-area: btndiv;
+ 
+}
+#btn7{ 
+    grid-area: btn7;
+
+}
+#btn8{ 
+    grid-area: btn8;
+
+}
+#btn9{ 
+    grid-area: btn9;
+
+}
+#btnx{ 
+    grid-area: btnx;
+
+}
+#btn4{ 
+    grid-area: btn4;
+
+}
+#btn5{ 
+    grid-area: btn5;
+
+}
+#btn6{ 
+    grid-area: btn6;
+
+}
+#btn-{ 
+    grid-area: btn-;
+
+}
+#btn1{ 
+    grid-area: btn1;
+
+}
+#btn2{ 
+    grid-area: btn2;
+
+}
+#btn3{ 
+    grid-area: btn3;
+
+} 
+#btnpl{ 
+    grid-area: btnpl;
+
+} 
+#btn0{ 
+    grid-area: btn0; 
+
+} 
+#btndot{ 
+    grid-area: btndot;
+
+} 
+#btneq{ 
+    grid-area: btneq;
+
+}
