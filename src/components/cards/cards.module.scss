@@ -1,0 +1,28 @@
+
+
+.beerCont{ 
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(107, 34, 34);
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    color: rgb(230, 216, 216);
+    img{ 
+        width: 5vw;
+        height: 30vh;
+    }
+    p{ 
+        z-index: 1;
+    }
+}
+.beersDisplay{ 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-gap: 2%;
+    justify-content: space-evenly;
+    height: fit-content;
+    background-color: rgb(78, 2, 2);
+ 
+}
