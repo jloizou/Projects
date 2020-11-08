@@ -1,0 +1,15 @@
+.page{ 
+    background-color: rgb(78, 2, 2);
+}
+.beerDisplay{ 
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: lightcoral;
+}
+.filterBar{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    background-color: lemonchiffon;
+}
